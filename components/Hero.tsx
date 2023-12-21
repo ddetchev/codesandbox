@@ -47,6 +47,7 @@ export function Hero() {
           width={512}
           src={vidUrl ? vidUrl : ""}
           autoPlay
+          controls
         ></video>
       </section>
     </div>
